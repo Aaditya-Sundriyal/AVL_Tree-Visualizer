@@ -133,6 +133,29 @@ svg {
     stroke: #3b82f6;
 }
 
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 6px 10px;
+    font: 12px sans-serif;
+    background: rgba(59, 130, 246, 0.9);
+    color: white;
+    border: 1px solid #2563eb;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+#visualizer {
+    margin-top: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+}
+
 footer {
     margin-top: 20px;
     padding: 10px;
